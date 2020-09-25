@@ -7,7 +7,7 @@ A TypegraphQL Framework app
 yarn
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Start the Server
 ```bash
 yarn start
 ```
