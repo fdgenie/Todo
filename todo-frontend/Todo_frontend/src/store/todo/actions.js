@@ -69,6 +69,7 @@ export function createTodo({ commit }, data) {
           title
           description
           date
+          done
             }
           }
         `
@@ -96,6 +97,7 @@ export function updateTodo({ commit }, data) {
           done
           date
           id
+          title
             }
           }
         `
