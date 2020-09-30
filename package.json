@@ -1,0 +1,20 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "![Todo Logo](https://github.com/fdgenie/Todo/blob/master/todo-frontend/Todo_frontend/public/icons/32x32.png)\r A simple todo app made by TypegraphQL in the back end and Vuejs + Quasar in the front end",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "yarn --cwd ./server && yarn --cwd ./server start",
+    "client": "yarn --cwd ./client && yarn --cwd ./client quasar dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdgenie/Todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdgenie/Todo/issues"
+  },
+  "homepage": "https://github.com/fdgenie/Todo#readme"
+}
