@@ -12,13 +12,14 @@
         <q-tab name="month" :label="$t('words.month')" />
       </q-tabs>
       <q-btn
-        class="col-auto"
         v-if="todos && todos.length > 0"
+        class="col-auto"
         icon="mdi-plus"
         :label="$t('words.add_todo')"
         color="lc-green"
         @click="openTodoDialog"
       />
+      <span v-else class="col-1" />
     </q-toolbar>
     <div v-if="todos && todos.length > 0 && !loading" class="q-pa-md">
       <div class="q-mt-md">
